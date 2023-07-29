@@ -27,7 +27,6 @@
     "*.js"
   ],
   "dependencies": {
-  },
-  "devDependencies": {
+    "enconvo": "^1.5.5"
   }
 }
