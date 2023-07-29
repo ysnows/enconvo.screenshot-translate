@@ -1,0 +1,33 @@
+{
+  "name": "enconvo.screenshot-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dist": "node dist/main.js",
+    "lint": "eslint src",
+    "lint:fix": "npm run lint --fix",
+    "format": "prettier --write \"**/*.ts\"",
+    "format:check": "prettier --list-different \"**/*.ts\"",
+    "build": "node build.js",
+    "deploy": "npm run build &&  cp -r dist/* ~/Library/Application\\ Support/Enconvo/extension/enconvo.screenshot-translate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysnows/enconvo.screenshot-translate.git"
+  },
+  "author": "ysnows",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysnows/enconvo.screenshot-translate/issues"
+  },
+  "homepage": "https://github.com/ysnows/enconvo.screenshot-translate#readme",
+  "sideEffects": [
+    "*.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
